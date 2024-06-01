@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Cross1Icon } from "@radix-ui/react-icons";
 import { v4 as uuid } from "uuid";
 import { showErrorToast, validateURL } from '../types/utils';
-import { AddLinkOverlayProps, LinkItem } from '../types/types';
+import { AddLinkOverlayProps } from '../types/types';
 
 const AddLinkOverlay: React.FC<AddLinkOverlayProps> = ({
   setItems,
